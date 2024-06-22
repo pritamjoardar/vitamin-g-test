@@ -209,7 +209,7 @@ const Home = () => {
 
       <div className="px-[7.3vw] mt-[5vw] flex flex-col gap-[2vw]">
       {caseStudies.map(({title,content},index)=>(   
-          <div id='anidiv' className=" flex justify-between rounded-lg h-[10.1vw] text-white py-[1.6vw] px-[2.8vw] transition duration-[600ms]">
+          <div key={index} id='anidiv' className=" flex justify-between rounded-lg h-[10.1vw] text-white py-[1.6vw] px-[2.8vw] transition duration-[600ms]">
           <div className="heading w-full">
             <h1 className='text-[3vw]  whitespace-nowrap'>{title}</h1>
             <p className='text-primary text-[1.5vw]'>Step {index+1}</p>
