@@ -1,0 +1,44 @@
+#service:hover{
+    // background: radial-gradient(#DDFAA1, #D0FF71); /* Radial gradient on hover */
+    background-color:#DDFAA1 ;
+    // background-color:#D0FF71;
+
+
+}
+
+#anidiv{
+    transition: 1s;
+    animation-name: ease-in;
+    .heading{
+        transition: 2s;
+        animation-name: ease-in;
+        h1{
+            transition: 2s;
+            animation-name: ease-in;
+        }
+        p{
+            transition: 2s;
+            animation-name: ease-in;
+        }
+    }
+}
+#anidiv:hover{
+    background-color: white;
+    .heading{
+        transition: 2s;
+        animation-name: ease-in;
+        margin-top: -.8vw;
+        h1{
+            color: black;
+            font-size: 2.7vw;
+            transition: 2s;
+            animation-name: ease-in;
+        }
+        p{
+            font-size: 1.3vw;
+            color: black;
+            transition: 2s;
+            animation-name: ease-in;
+        }
+    }
+}
